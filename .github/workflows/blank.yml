@@ -15,7 +15,7 @@ jobs:
         username: ${{ secrets.ftpusername }}
         password: ${{ secrets.ftppassword }}
         local-dir: ./
-        server-dir: /135.148.30.9_27015/garrysmod/data/adv_duplicator/-public folder-
+        server-dir: /135.148.30.9_27015/garrysmod/data/adv_duplicator/-public folder-/
         dangerous-clean-slate: true
         exclude: |
           **/.git*
